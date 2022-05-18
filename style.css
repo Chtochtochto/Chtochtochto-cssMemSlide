@@ -22,9 +22,9 @@ body{
 
 .navi{
     position: absolute;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 10px;
+    left: 90%;
+    transform: translateX(-10%);
     display: flex;
 }
 
@@ -79,4 +79,8 @@ input[name="r"]{
 
 #r4:checked ~ .s1{
     margin-left: -75%;
+}
+
+.text{
+    color: black;
 }
